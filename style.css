@@ -1,0 +1,157 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+ body {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .parent-box {
+     width: fit-content;
+     height: 665px;
+ }
+
+ .icon {
+     font-size: 55.5px;
+     text-align: center;
+     color: #232023;  
+     margin-bottom: 15px;  
+ }
+
+.parent-box label{
+     margin: 15px 0;
+     text-align: center;
+     font-size: 22px;
+     margin-left: 223px;
+ }
+
+ .login-box {
+     background: #F6F8FA;
+     width: 305px;
+     height: 230px;
+     padding: 16px;
+     border: 1px solid #92a4b570;
+     border-radius: 6px;
+     justify-content: center;
+     margin-left: 150px;
+     margin-bottom: 3px;
+     margin-top: 20px;
+
+ }
+
+ input {
+     width: 100%;
+     padding: 6px;
+     font-size: 15px;
+     border-radius: 5px;
+     border: 1px solid #8ba0b570;
+     outline: none;
+     margin-bottom: 4px;
+
+ }
+
+ .input-box {
+     margin-bottom: 8px;
+ }
+
+ .label {
+     font-size: 14px;
+     margin-bottom: 12px;
+     padding-top: 8px;
+     display: flex;
+     justify-content: space-between;
+     color: #514951;
+     margin-bottom: 10px;
+
+ }
+
+ .label a {
+     font-size: 12px;
+     text-decoration: none;
+     color: #0969DA;
+ }
+
+ input:focus {
+     border: 2px solid rgba(0, 0, 255, 0.541);
+ }
+
+ .btn {
+     font-size: 14.5px;
+     background: #1f883D;
+     color: #fff;
+     cursor: pointer;
+     display: block;
+ }
+
+ .signup {
+     width: 303px;
+     margin: 16px 0px 0px;
+     display: flex;
+     justify-content: center;
+     border: 1px solid #8ba0b570;
+     border-radius: 7px;
+     flex-direction: column;
+     align-items: center;
+     margin-left: 150px;
+     padding-bottom: 10px;
+ }
+
+ .signup span {
+     font-size: 15px;
+     color: #1F2328;
+
+ }
+
+ .signup a {
+     font-size: 14px;
+     padding-left: 3px;
+     color: rgba(0, 0, 255, 0.635);
+     text-decoration: none;
+
+     &:hover {
+         text-decoration: underline;
+     }
+
+ }
+
+ .footer {
+     display: flex;
+     flex-direction: row;
+     font-size: 12px;
+     color: #656D76;
+     margin-top: 70px;
+
+     a {
+         text-decoration: none;
+     }
+
+     a:hover,
+     a:focus {
+         text-decoration: underline;
+         color: #0969DA;
+     }
+ }
+
+ .footer a {
+     margin: 7.5px;
+     text-decoration: none;
+
+ }
+
+ .span 
+ {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+ .span a{
+    font-weight: bold;
+ }
